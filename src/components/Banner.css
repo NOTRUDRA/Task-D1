@@ -1,0 +1,39 @@
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  min-height: 16rem;
+  margin-top: 1.25rem;
+  object-fit: cover;
+  border: 2px solid black;
+  display: block;
+}
+
+.banner-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  border: 2px solid black;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.banner:hover .banner-overlay {
+  opacity: 1;
+}

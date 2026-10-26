@@ -1,0 +1,36 @@
+.profile {
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  color: #06b6d4;
+}
+
+.profile-image {
+  width: 8rem;
+  height: 8rem;
+
+  border-radius: 50%;
+  border: 2px solid #06b6d4;
+
+  object-fit: cover;
+}
+
+.profile p {
+  font-size: 1.2rem;
+}
+
+.profile hr {
+  width: 12rem;
+  border: none;
+  border-top: 2px solid #06b6d4;
+}
+
+.profile h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
